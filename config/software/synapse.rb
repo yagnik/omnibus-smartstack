@@ -1,5 +1,5 @@
 name "synapse"
-version "0.13.1"
+default_version "0.13.1"
 
 
 dependency "ruby"

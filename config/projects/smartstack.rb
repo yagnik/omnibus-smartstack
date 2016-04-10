@@ -18,6 +18,7 @@ override :nerve,        version: "0.7.0"
 dependency "preparation"
 dependency "synapse"
 dependency "nerve"
+dependency "haproxy"
 dependency "version-manifest"
 
 exclude "**/.git"

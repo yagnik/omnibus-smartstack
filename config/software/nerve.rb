@@ -1,5 +1,5 @@
 name "nerve"
-version "0.7.0"
+default_version "0.7.0"
 
 
 dependency "ruby"
