@@ -19,7 +19,7 @@ Usage
 You create a platform-specific package using the `build project` command:
 
 ```shell
-$ bin/omnibus build smartstack
+$ bundle exec omnibus build smartstack
 ```
 
 The platform/architecture type of the package created will match the platform

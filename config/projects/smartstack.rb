@@ -18,6 +18,9 @@ override :nerve,        version: "0.7.0"
 override :dendrite,     version: "0.3.0"
 
 dependency "preparation"
+if rhel? && platform_version.satisfies?("> 7.0")
+  dependency "liblzma"
+end
 dependency "synapse"
 dependency "nerve"
 dependency "dendrite"
