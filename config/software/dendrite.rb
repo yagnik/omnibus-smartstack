@@ -1,5 +1,5 @@
 name "dendrite"
-default_version "0.3.2"
+default_version "0.4.1"
 
 
 dependency "ruby"
