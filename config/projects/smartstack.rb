@@ -13,9 +13,9 @@ build_iteration 1
 override :ruby,         version: "2.2.4"
 override :bundler,      version: "1.11.2"
 override :rubygems,     version: "2.5.2"
-override :synapse,      version: "0.13.1"
-override :nerve,        version: "0.7.0"
-override :dendrite,     version: "0.4.9"
+override :synapse,      version: "0.13.8"
+override :nerve,        version: "0.8.0"
+override :dendrite,     version: "0.5.0"
 
 dependency "preparation"
 if rhel? && platform_version.satisfies?("> 7.0")
