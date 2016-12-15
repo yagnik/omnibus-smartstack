@@ -14,7 +14,7 @@ override :bundler,      version: "1.11.2"
 override :rubygems,     version: "2.5.2"
 override :synapse,      version: "0.13.8"
 override :nerve,        version: "0.8.0"
-override :dendrite,     version: "0.5.7"
+override :dendrite,     version: "0.5.8"
 
 dependency "preparation"
 if rhel? && platform_version.satisfies?("> 7.0")
